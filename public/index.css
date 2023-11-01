@@ -16,10 +16,6 @@
   overflow-y: hidden;
 }
 
-.center-form__form {
-   height: 45vh;
-}
-
 form {
   background: darkslategray;
   width: 300px;
