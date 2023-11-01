@@ -6,15 +6,16 @@
 }
 
 .center-form {
-  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80));
-}
-
-.center-form__form {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80));
 }
+
+/* .center-form__form {
+   height: 50%;
+} */
 
 form {
   background: darkslategray;
