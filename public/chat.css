@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -150,7 +151,6 @@ header h1 {
   font-size: 0.9rem;
   opacity: 0.2;
   line-height: 1.5;
-  font-family: 'Verdana', sans-serif;
 }
 
 .output {
@@ -164,11 +164,11 @@ header h1 {
   margin: 5px 20px;
   border-radius: 10px;
   width: fit-content;
-  font-family: 'Verdana', sans-serif;
   font-size: 0.9rem;
   list-style: none;
   align-self: flex-start;
-  /* background: red; */
+  font-family: 'Verdana', sans-serif;
+
 }
 
 .ptag:nth-of-type(odd) {
@@ -282,7 +282,6 @@ span:hover {
   padding: 13px 5px;
   font-size: 0.9rem;
   border: 0.1px solid lightgray;
-  font-family: 'Verdana', sans-serif;
 }
 
 .message-field {
@@ -291,7 +290,6 @@ span:hover {
   padding: 13px 5px;
   font-size: 0.9rem;
   border: 0.1px solid lightgray;
-  font-family: 'Verdana', sans-serif;
 }
 
 .name-field, .message-field:focus {
@@ -314,8 +312,6 @@ span:hover {
   transition: all 0.2s ease;
   background: #313C48;
   border: none;
-  /* margin-top: 3px; */
-
 }
 
 .file-btn {
@@ -326,7 +322,6 @@ span:hover {
   border: none;
   background: #313C48;
   padding: 0px 20px;
-  /* margin-top: 3px; */
 }
 
 .file-btn > i {
