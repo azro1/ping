@@ -7,13 +7,16 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 .center-form {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.80));
-  overflow-y: hidden;
 }
 
 form {
