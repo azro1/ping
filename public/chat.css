@@ -166,12 +166,15 @@ header h1 {
   font-family: 'Verdana', sans-serif;
 }
 
+.ptag.open {
+  padding: 18px 13px 0px;
+}
+
 .image {
   width: 150px;
   height: 150px;
   cursor: pointer;
   object-fit: cover;
-  margin-top: 2px;
 }
 
 .image.open {
