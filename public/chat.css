@@ -194,8 +194,8 @@ header h1 {
   display: block;
   color: #fff;
   font-size: 0.9rem;
-  position: relative;
-  top: -2px;
+  /* position: relative;
+  top: -3px; */
 }
 
 time {
