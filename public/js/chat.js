@@ -94,8 +94,10 @@ socket.on('newImage', function(message) {
   chatWindow.scrollTop = chatWindow.scrollHeight;
   $('.output').append(html);
 
-  $('.output .image').on('click', () => {
-    $('.output .image').toggleClass('open')
+
+
+  $('.output #image-bubble').on('click', () => {
+    $('.output #image-bubble, .image').toggleClass('open')
   })
 })
 
