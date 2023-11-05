@@ -167,7 +167,7 @@ header h1 {
 }
 
 .ptag.open {
-  padding: 20px 13px 0px;
+  padding: 15px 13px 0px;
 }
 
 .image {
@@ -175,6 +175,10 @@ header h1 {
   height: 150px;
   cursor: pointer;
   object-fit: cover;
+}
+
+.image.open {
+  height: 315px;
 }
 
 .open {
