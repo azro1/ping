@@ -171,6 +171,7 @@ header h1 {
   height: 150px;
   cursor: pointer;
   object-fit: cover;
+  margin-top: 2px;
 }
 
 .image.open {
